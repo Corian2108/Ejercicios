@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button {
+    background: none;
+    border: solid 1px #fff0;
+    background-color: #353535;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-inline: auto;
+    font-weight: 600;
+    font-size: medium;
+}
+
+button:hover{
+    transition: 0.2s;
+    color: #353535;
+    background-color: #fff;
+    border: solid #353535 1px;
+}
+
+table, thead, tbody{
+    text-align: center;
+}
+
+div{
+    position: static;
+    overflow: auto;
+    max-height: 570px;
+}
+
+table{
+    width: -webkit-fill-available;
+}
+

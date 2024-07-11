@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="solver.js"></script>
+    <title>Multiplos de 3 o 5</title>
 </head>
+
 <body>
-    
+    <button onclick="ShowResult()">Calcular</button>
+    <br />
+    <div>
+    <table>
+        <thead>
+            <tr>
+                <th>Posición</th>
+                <th>Multiplos</th>
+                <th>Multiplo de 3</th>
+                <th>Multiplo de 5</th>
+            </tr>
+        </thead>
+            <tbody id="tabla">
+            </tbody>
+        </table>
+    </div>
 </body>
+
 </html>
