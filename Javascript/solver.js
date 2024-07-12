@@ -33,7 +33,7 @@ function ShowResult() {
     multiples = []
     multiples3 = []
     multiples5 = []
-    Counter(1, 100)
+    Counter(1, 1000)
 
     let table = document.getElementById("tabla")
     table.innerHTML = ""

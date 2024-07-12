@@ -16,24 +16,44 @@ button {
     font-size: medium;
 }
 
-button:hover{
+button:hover {
     transition: 0.2s;
     color: #353535;
     background-color: #fff;
     border: solid #353535 1px;
 }
 
-table, thead, tbody{
+table,
+thead,
+tbody {
     text-align: center;
 }
 
-div{
-    position: static;
+div {
     overflow: auto;
+    display: block;
     max-height: 570px;
 }
 
-table{
+table {
     width: -webkit-fill-available;
+    border-spacing: 0px;
 }
 
+th {
+    background-color: #353535;
+    color: #fff;
+    border: solid 1px #353535;
+}
+
+#roundLeft {
+    border-top-left-radius: 10px;
+}
+
+#roundRight {
+    border-top-right-radius: 10px;
+}
+
+tr{
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
